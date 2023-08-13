@@ -55,4 +55,3 @@ post_alt <- read.csv('../output/mcmc_no_age/posterior_pooled.csv')
 # calculate DIC
 num.samps <- 5000
 DIC(post = post_alt, likelihood = ll_age_cmp, num.samps = num.samps)
-

@@ -150,7 +150,13 @@ sim_model <- function(ages,
                    i_mm = i_mm,
                    rate_mm = rate_mm,
                    cum_prop_mgus = cum_prop_mgus,
-                   cum_prop_mm = cum_prop_mm)
+                   cum_prop_mm = cum_prop_mm,
+                   P_H = P_H,
+                   P_MGUS = P_MGUS,
+                   P_MM = P_MM,
+                   P_D_H = P_D_H,
+                   P_D_MGUS = P_D_MGUS,
+                   P_D_MM = P_D_MM)
   return(df)
 }
 
